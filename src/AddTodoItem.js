@@ -22,8 +22,8 @@ class AddTodoItem extends Component{
             <div>
                 <form action="/" onSubmit={this.handleSubmit}>
                     <h1>Add Item: </h1><br/>
-                    <input type="text" id="item" onChange={this.handleChange} />
-                    <button onClick= {this.handleSubmit}>Add</button>
+                    <input type="text" id="item" style={{"borderRadius":"15px"}} onChange={this.handleChange} />
+                    <button onClick= {this.handleSubmit} style={{"margin":"20px","borderRadius":"15px"}}>Add</button>
                 </form>
             </div>
         )
