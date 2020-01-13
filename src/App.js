@@ -8,7 +8,7 @@ import Background from './background.jpeg'
 
 function App() {
   return (
-    <div className="App" style={{"backgroundColor":"#be8abf","marginLeft":"300px","marginRight":"300px","borderRadius":"15px"}}>
+    <div className="App" style={{"backgroundColor":"#be8abf","height":"50%","width":"50%","marginLeft":"25%","borderRadius":"15px"}}>
       <h1>Welcome to TodoApp :)</h1>
       <Todos />
     </div>
